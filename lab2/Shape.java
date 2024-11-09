@@ -1,4 +1,5 @@
 package lab2;
 
-public class Shape {
+abstract class Shape {
+    public abstract double getVolume();
 }

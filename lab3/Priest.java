@@ -1,8 +1,8 @@
 package lab3;
 
 class Priest extends Player {
-    public Priest(String name) {
-        super(name, 60, 60);
+    public Priest(String name, Race race) {
+        super(name, 60, 60, race);
         setDamage(5);
         setDefense(3);
     }
