@@ -16,7 +16,6 @@ public class ShopItem {
 
     public String getName() {
         return name;
-
     }
 
     @Override
