@@ -1,4 +1,4 @@
-package lab2;
+package lab2.num4;
 
 class Sphere extends Shape{
     private double radius;

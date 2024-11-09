@@ -1,4 +1,4 @@
-package lab2;
+package lab2.num4;
 
 class Cylinder extends Shape{
     private double height;
@@ -11,6 +11,6 @@ class Cylinder extends Shape{
 
     @Override
     public double getVolume() {
-        return Math.PI * height * radius * radius;
+        return Math.PI * height * Math.pow(radius, 2);
     }
 }
