@@ -21,12 +21,10 @@ class File implements FileSystemComponent {
 
     @Override
     public void add(FileSystemComponent component) {
-        // Не поддерживается для файлов
     }
 
     @Override
     public void remove(FileSystemComponent component) {
-        // Не поддерживается для файлов
     }
 
     @Override
